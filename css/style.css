@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+body{
+	font-family:"Lato", serif;
+	color: #424551;
+}
+[class*="__container"]{
+	max-width: 810px;
+	margin: 0 auto;
+}
+.about{
+	margin: 0 0 184px 0;
+}
+.block{
+	margin: 0 0 48px 0;
+}
+.about__title{
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 130%;
+	color: #1E212C;
+	margin-bottom: 40px;
+}
+.about__text{
+	line-height: 160%;
+	max-width: 600px;
+}
+.about-learn__title{
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 150%;
+	color: #1E212C;
+	margin-bottom: 24px;
+}
+.about-larn__list li{
+	line-height: 160%;
+	background: url(../img/Vector.svg) 0 5px no-repeat;
+	padding-left: 32px;
+}
+.about-larn__list>*:not(:last-child) {
+	margin-bottom: 4px;
+}
+.curator{
+	margin-bottom: 180px;
+}
+.curator-title{
+	margin-bottom: 32px;
+}
+.curator-title__text{
+	font-weight: 700;
+	line-height: 150%;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #1E212C;
+	margin-bottom: 8px;
+}
+.title{
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 130%;
+	color: #1E212C;
+	margin-bottom: 16px;
+}
+.curator-title__info{
+	font-size: 20px;
+	line-height: 150%;
+	color: #787A80;
+}
+.curator-list{
+	margin-bottom: 32px;
+}
+.curator-list li{
+	font-weight: 700;
+	line-height: 160%;
+}
+.curator-list>*:not(:last-child) {
+	margin-bottom: 4px;
+}
+.curator-list li:nth-child(1) {
+	background: url(../img/Star.svg) 0 5px no-repeat;
+	padding-left: 24px;
+}
+.curator-list li:nth-child(2) {
+	background: url(../img/Vector_2.svg) 0 5px no-repeat;
+	padding-left: 24px;
+}
+.curator-list li:nth-child(3) {
+	background: url(../img/Vector_3.svg) 0 5px no-repeat;
+	padding-left: 24px;
+}
+.curator-text{
+	line-height: 160%;
+	max-width: 600px;
+}
+.game_title{
+	font-weight: 700;
+	font-size: 36px;
+	color: rgb(0, 203, 176);
+	margin-bottom: 40px;
+	padding-left: 100px;
+}
+.game{
+	width: 500px;
+	height: 570px;
+	margin-bottom: 40px;
+	border-radius: 10px;
+	border: 4px solid pink;
+	text-align: center;
+	letter-spacing: -6px;
+}
+.take__eat{
+	width: 80px;
+	margin: -40px 0 0 0;
+}
+[class*="step_"]{
+	height: 40px;
+	display: block;
+	visibility: hidden;
+}
+.game img:nth-child(2){
+	height: 70px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.game img:nth-child(3){
+	margin-left: 120px;
+	display: inline-block;
+}
+.game img:nth-child(4),
+.game img:nth-child(9){
+	display: inline-block;
+}
+.game img:nth-child(5),
+.game img:nth-child(6),
+.game img:nth-child(7),
+.game img:nth-child(8){
+	height: 70px;
+	margin-left: 352px;
+}
+.game img:nth-child(9){
+	margin-left: 198px;
+}
+.take__eat:hover + .step_1,
+.step_1:hover{
+	visibility: visible;
+}
+.step_1:hover + .step_2,
+.step_2:hover{
+	visibility: visible;
+}
+.step_2:hover + .step_3,
+.step_3:hover{
+	visibility: visible;
+}
+.step_3:hover + .step_4,
+.step_4:hover{
+	visibility: visible;
+}
+.step_4:hover + .step_5,
+.step_5:hover{
+	visibility: visible;
+}
+.step_5:hover + .step_6,
+.step_6:hover{
+	visibility: visible;
+}
+.step_6:hover + .step_7,
+.step_7:hover{
+	visibility: visible;
+}
+.step_7:hover + .step_8,
+.step_8:hover{
+	visibility: visible;
+}
+.cat{
+	background: url(../img/game_start.webp) 0 40px / 150px no-repeat;
+	width: 150px;
+	height: 200px;
+	margin-left: 160px;
+	margin-top: -120px;
+}
+.step_8:hover + .cat{
+	background: url(../img/game_end.jpg) 0 0 / 150px no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
